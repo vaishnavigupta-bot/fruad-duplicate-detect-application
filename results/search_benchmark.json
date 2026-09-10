@@ -1,0 +1,49 @@
+{
+  "engine": "elasticsearch 8.17.0",
+  "indexing_seconds": 0.78,
+  "benchmark": {
+    "index": "loan_applicants",
+    "indexed_documents": 10000,
+    "queries": 1000,
+    "top_k": 10,
+    "client_side_latency_ms": {
+      "mean": 2.96,
+      "median_p50": 2.84,
+      "p90": 3.74,
+      "p95": 4.03,
+      "p99": 6.14,
+      "min": 1.08,
+      "max": 33.29
+    },
+    "server_side_took_ms": {
+      "mean": 2.04,
+      "max": 32
+    },
+    "throughput_qps_single_client": 338.0
+  },
+  "retrieval": {
+    "top_k": 5,
+    "by_kind": {
+      "exact_key": {
+        "n": 360,
+        "hit": 360,
+        "recall_at_k": 1.0
+      },
+      "adversarial": {
+        "n": 120,
+        "hit": 111,
+        "recall_at_k": 0.925
+      },
+      "fuzzy_only": {
+        "n": 320,
+        "hit": 320,
+        "recall_at_k": 1.0
+      },
+      "ALL": {
+        "n": 800,
+        "hit": 791,
+        "recall_at_k": 0.9888
+      }
+    }
+  }
+}

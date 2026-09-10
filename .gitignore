@@ -1,0 +1,25 @@
+# virtualenv
+.venv/
+venv/
+env/
+
+# vendored search engine (multi-hundred-MB distribution, install locally)
+vendor/
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# large regenerable artifacts (see `make data` / `make match`)
+results/scored_pairs.csv
+
+# local review state
+results/review_audit_log.csv
+
+# os / editor
+.DS_Store
+.vscode/
+.idea/

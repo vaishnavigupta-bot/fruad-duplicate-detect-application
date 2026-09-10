@@ -1,0 +1,29 @@
+{
+  "thresholds": {
+    "screen": 60.0,
+    "review": 80.0,
+    "reject": 92.0
+  },
+  "applications": 10000,
+  "baseline_review_queue_equal_recall": 1600,
+  "baseline_review_queue_low_screen": 7942,
+  "manual_review_reduction_pct_low_screen": 98.64,
+  "tiered": {
+    "auto_reject": 1492,
+    "flag_for_review": 108,
+    "auto_approve": 8400
+  },
+  "manual_review_reduction_pct": 93.25,
+  "precision": {
+    "auto_reject_tier": 0.9987,
+    "review_tier": 0.6944,
+    "all_flagged": 0.9781
+  },
+  "safety": {
+    "injected_duplicates": 800,
+    "caught_by_pipeline": 783,
+    "catch_rate": 0.9788,
+    "leaked_to_auto_approve": 17,
+    "false_auto_rejects": 2
+  }
+}

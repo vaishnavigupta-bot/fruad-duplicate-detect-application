@@ -1,0 +1,316 @@
+{
+  "blocking": {
+    "total_blocks": 77249,
+    "blocks_with_pairs": 12071,
+    "skipped_oversized_blocks": 0,
+    "candidate_pairs": 53353,
+    "scored_pairs_retained": 26628,
+    "n_records": 10000,
+    "all_possible_pairs": 49995000,
+    "reduction_ratio": 0.998933,
+    "blocking_recall": 0.9988,
+    "true_pairs": 800
+  },
+  "sweep": [
+    {
+      "threshold": 60.0,
+      "predicted_pairs": 8123,
+      "true_positives": 799,
+      "false_positives": 7324,
+      "false_negatives": 1,
+      "precision": 0.0984,
+      "recall": 0.9988,
+      "f1": 0.1791
+    },
+    {
+      "threshold": 62.0,
+      "predicted_pairs": 5824,
+      "true_positives": 799,
+      "false_positives": 5025,
+      "false_negatives": 1,
+      "precision": 0.1372,
+      "recall": 0.9988,
+      "f1": 0.2412
+    },
+    {
+      "threshold": 64.0,
+      "predicted_pairs": 3986,
+      "true_positives": 799,
+      "false_positives": 3187,
+      "false_negatives": 1,
+      "precision": 0.2005,
+      "recall": 0.9988,
+      "f1": 0.3339
+    },
+    {
+      "threshold": 66.0,
+      "predicted_pairs": 2663,
+      "true_positives": 799,
+      "false_positives": 1864,
+      "false_negatives": 1,
+      "precision": 0.3,
+      "recall": 0.9988,
+      "f1": 0.4614
+    },
+    {
+      "threshold": 68.0,
+      "predicted_pairs": 1867,
+      "true_positives": 798,
+      "false_positives": 1069,
+      "false_negatives": 2,
+      "precision": 0.4274,
+      "recall": 0.9975,
+      "f1": 0.5984
+    },
+    {
+      "threshold": 70.0,
+      "predicted_pairs": 1390,
+      "true_positives": 798,
+      "false_positives": 592,
+      "false_negatives": 2,
+      "precision": 0.5741,
+      "recall": 0.9975,
+      "f1": 0.7288
+    },
+    {
+      "threshold": 72.0,
+      "predicted_pairs": 1076,
+      "true_positives": 797,
+      "false_positives": 279,
+      "false_negatives": 3,
+      "precision": 0.7407,
+      "recall": 0.9962,
+      "f1": 0.8497
+    },
+    {
+      "threshold": 74.0,
+      "predicted_pairs": 942,
+      "true_positives": 795,
+      "false_positives": 147,
+      "false_negatives": 5,
+      "precision": 0.8439,
+      "recall": 0.9938,
+      "f1": 0.9127
+    },
+    {
+      "threshold": 76.0,
+      "predicted_pairs": 873,
+      "true_positives": 792,
+      "false_positives": 81,
+      "false_negatives": 8,
+      "precision": 0.9072,
+      "recall": 0.99,
+      "f1": 0.9468
+    },
+    {
+      "threshold": 78.0,
+      "predicted_pairs": 827,
+      "true_positives": 788,
+      "false_positives": 39,
+      "false_negatives": 12,
+      "precision": 0.9528,
+      "recall": 0.985,
+      "f1": 0.9687
+    },
+    {
+      "threshold": 80.0,
+      "predicted_pairs": 803,
+      "true_positives": 783,
+      "false_positives": 20,
+      "false_negatives": 17,
+      "precision": 0.9751,
+      "recall": 0.9788,
+      "f1": 0.9769
+    },
+    {
+      "threshold": 82.0,
+      "predicted_pairs": 786,
+      "true_positives": 777,
+      "false_positives": 9,
+      "false_negatives": 23,
+      "precision": 0.9885,
+      "recall": 0.9712,
+      "f1": 0.9798
+    },
+    {
+      "threshold": 84.0,
+      "predicted_pairs": 778,
+      "true_positives": 774,
+      "false_positives": 4,
+      "false_negatives": 26,
+      "precision": 0.9949,
+      "recall": 0.9675,
+      "f1": 0.981
+    },
+    {
+      "threshold": 86.0,
+      "predicted_pairs": 773,
+      "true_positives": 771,
+      "false_positives": 2,
+      "false_negatives": 29,
+      "precision": 0.9974,
+      "recall": 0.9637,
+      "f1": 0.9803
+    },
+    {
+      "threshold": 88.0,
+      "predicted_pairs": 769,
+      "true_positives": 768,
+      "false_positives": 1,
+      "false_negatives": 32,
+      "precision": 0.9987,
+      "recall": 0.96,
+      "f1": 0.979
+    },
+    {
+      "threshold": 90.0,
+      "predicted_pairs": 768,
+      "true_positives": 767,
+      "false_positives": 1,
+      "false_negatives": 33,
+      "precision": 0.9987,
+      "recall": 0.9587,
+      "f1": 0.9783
+    },
+    {
+      "threshold": 92.0,
+      "predicted_pairs": 746,
+      "true_positives": 745,
+      "false_positives": 1,
+      "false_negatives": 55,
+      "precision": 0.9987,
+      "recall": 0.9313,
+      "f1": 0.9638
+    },
+    {
+      "threshold": 94.0,
+      "predicted_pairs": 673,
+      "true_positives": 672,
+      "false_positives": 1,
+      "false_negatives": 128,
+      "precision": 0.9985,
+      "recall": 0.84,
+      "f1": 0.9124
+    },
+    {
+      "threshold": 96.0,
+      "predicted_pairs": 609,
+      "true_positives": 609,
+      "false_positives": 0,
+      "false_negatives": 191,
+      "precision": 1.0,
+      "recall": 0.7612,
+      "f1": 0.8644
+    },
+    {
+      "threshold": 98.0,
+      "predicted_pairs": 407,
+      "true_positives": 407,
+      "false_positives": 0,
+      "false_negatives": 393,
+      "precision": 1.0,
+      "recall": 0.5088,
+      "f1": 0.6744
+    }
+  ],
+  "best_f1": {
+    "threshold": 84.0,
+    "predicted_pairs": 778,
+    "true_positives": 774,
+    "false_positives": 4,
+    "false_negatives": 26,
+    "precision": 0.9949,
+    "recall": 0.9675,
+    "f1": 0.981
+  },
+  "recall_by_kind": {
+    "80.0": {
+      "adversarial": {
+        "records": 120,
+        "recalled": 103,
+        "recall": 0.8583
+      },
+      "exact_key": {
+        "records": 360,
+        "recalled": 360,
+        "recall": 1.0
+      },
+      "fuzzy_only": {
+        "records": 320,
+        "recalled": 320,
+        "recall": 1.0
+      },
+      "ALL_INJECTED": {
+        "records": 800,
+        "recalled": 783,
+        "recall": 0.9788
+      }
+    },
+    "85.0": {
+      "adversarial": {
+        "records": 120,
+        "recalled": 94,
+        "recall": 0.7833
+      },
+      "exact_key": {
+        "records": 360,
+        "recalled": 360,
+        "recall": 1.0
+      },
+      "fuzzy_only": {
+        "records": 320,
+        "recalled": 320,
+        "recall": 1.0
+      },
+      "ALL_INJECTED": {
+        "records": 800,
+        "recalled": 774,
+        "recall": 0.9675
+      }
+    },
+    "84.0": {
+      "adversarial": {
+        "records": 120,
+        "recalled": 94,
+        "recall": 0.7833
+      },
+      "exact_key": {
+        "records": 360,
+        "recalled": 360,
+        "recall": 1.0
+      },
+      "fuzzy_only": {
+        "records": 320,
+        "recalled": 320,
+        "recall": 1.0
+      },
+      "ALL_INJECTED": {
+        "records": 800,
+        "recalled": 774,
+        "recall": 0.9675
+      }
+    },
+    "90.0": {
+      "adversarial": {
+        "records": 120,
+        "recalled": 87,
+        "recall": 0.725
+      },
+      "exact_key": {
+        "records": 360,
+        "recalled": 360,
+        "recall": 1.0
+      },
+      "fuzzy_only": {
+        "records": 320,
+        "recalled": 320,
+        "recall": 1.0
+      },
+      "ALL_INJECTED": {
+        "records": 800,
+        "recalled": 767,
+        "recall": 0.9587
+      }
+    }
+  }
+}

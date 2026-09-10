@@ -1,0 +1,5 @@
+pandas>=2.2
+rapidfuzz>=3.9
+streamlit>=1.36
+elasticsearch>=8.17,<9
+pytest>=8.0
