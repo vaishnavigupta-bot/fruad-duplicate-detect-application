@@ -1,6 +1,7 @@
 # Duplicate & Fraud Applicant Detection for Loan Underwriting
 
 [![CI](https://github.com/vaishnavigupta-bot/fruad-duplicate-detect-application/actions/workflows/ci.yml/badge.svg)](https://github.com/vaishnavigupta-bot/fruad-duplicate-detect-application/actions/workflows/ci.yml)
+[![Live demo](https://img.shields.io/badge/demo-streamlit.app-FF4B4B?logo=streamlit&logoColor=white)](https://fruad-duplicate-detect-application.streamlit.app)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey.svg)](#license)
 
@@ -16,6 +17,10 @@ a good / bad / grey decision split that sends only the grey band to underwriting
 
 Everything here runs on **synthetic data**. No real applicant information is
 used or included.
+
+**🔗 [Live demo](https://fruad-duplicate-detect-application.streamlit.app)** — the
+review console, hosted on Streamlit Community Cloud against the same
+10,000-record dataset committed in this repo.
 
 ## Contents
 
@@ -261,7 +266,10 @@ architecture.
 
 ### Review dashboard
 
-Run it locally:
+**Try it live:** [fruad-duplicate-detect-application.streamlit.app](https://fruad-duplicate-detect-application.streamlit.app)
+(hosted on Streamlit Community Cloud, auto-redeploys on every push to `main`).
+
+Or run it locally:
 
 ```bash
 make dashboard
