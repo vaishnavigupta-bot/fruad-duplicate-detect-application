@@ -3,7 +3,6 @@
 [![CI](https://github.com/vaishnavigupta-bot/fruad-duplicate-detect-application/actions/workflows/ci.yml/badge.svg)](https://github.com/vaishnavigupta-bot/fruad-duplicate-detect-application/actions/workflows/ci.yml)
 [![Live demo](https://img.shields.io/badge/demo-streamlit.app-FF4B4B?logo=streamlit&logoColor=white)](https://fruad-duplicate-detect-application.streamlit.app)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey.svg)](#license)
 
 An entity-resolution pipeline that finds duplicate and identity-manipulated loan
 applicants, scores each match by confidence, and routes only genuinely ambiguous
@@ -328,6 +327,3 @@ Worth stating plainly, because they bound what the numbers mean.
   single-node index on a laptop — it is a clean relative measure, not a
   production capacity figure.
 
-## License
-
-MIT
