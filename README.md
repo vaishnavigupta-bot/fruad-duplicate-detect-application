@@ -28,8 +28,6 @@ review console, hosted on Streamlit Community Cloud against the same
 - [Repository layout](#repository-layout)
 - [Running it](#running-it)
 - [Limitations](#limitations)
-- [License](#license)
-
 ---
 
 ## Results
